@@ -1,0 +1,187 @@
+[Jeevan@Jeevan-DELL ~]$ cd awknew
+[Jeevan@Jeevan-DELL awknew]$ ls
+avg.awk  delete1.awk  maindb1.sh  modify1.awk  search1.awk
+[Jeevan@Jeevan-DELL awknew]$ sh maindb1.sh
+MENU
+1.Insert records
+2.Display the Records
+3.Search a record
+4.Delete a record
+5.Modify a Record
+Enter your choice :
+1
+Enter the number of records you want to enter : 
+4
+Enter contents of the student
+Enter the name : 
+jeevan
+Enter the roll no : 
+1
+Enter the marks for first subject : 
+33
+Enter the marks for second subject : 
+44
+Enter contents of the student
+Enter the name : 
+vaibhav
+Enter the roll no : 
+2
+Enter the marks for first subject : 
+55
+Enter the marks for second subject : 
+77
+Enter contents of the student
+Enter the name : 
+gaurav
+Enter the roll no : 
+3
+Enter the marks for first subject : 
+66
+Enter the marks for second subject : 
+77
+Enter contents of the student
+Enter the name : 
+satish
+Enter the roll no : 
+5
+Enter the marks for first subject : 
+88
+Enter the marks for second subject : 
+44
+
+MENU
+1.Insert records
+2.Display the Records
+3.Search a record
+4.Delete a record
+5.Modify a Record
+Enter your choice :
+2
+The records are
+
+	Name	RollNO	Sub1	Sub2	Avg
+	jeevan	1	33	44	38
+	vaibhav	2	55	77	66
+	gaurav	3	66	77	71
+	satish	5	88	44	66
+
+
+
+The Distinction students are : 
+Name: vaibhav
+RollNo: 2
+Average Marks: 66
+Name: gaurav
+RollNo: 3
+Average Marks: 71
+Name: satish
+RollNo: 5
+Average Marks: 66
+MENU
+1.Insert records
+2.Display the Records
+3.Search a record
+4.Delete a record
+5.Modify a Record
+Enter your choice :
+3
+
+Enter the roll no of record you want to search : 3
+
+Record found
+	gaurav	3	66	77
+MENU
+1.Insert records
+2.Display the Records
+3.Search a record
+4.Delete a record
+5.Modify a Record
+Enter your choice :
+4
+
+Enter the roll no of record you want to delete : 3
+
+MENU
+1.Insert records
+2.Display the Records
+3.Search a record
+4.Delete a record
+5.Modify a Record
+Enter your choice :
+2
+The records are
+
+	Name	RollNO	Sub1	Sub2	Avg
+	jeevan	1	33	44	38
+	vaibhav	2	55	77	66
+	satish	5	88	44	66
+
+
+
+The Distinction students are : 
+Name: vaibhav
+RollNo: 2
+Average Marks: 66
+Name: satish
+RollNo: 5
+Average Marks: 66
+MENU
+1.Insert records
+2.Display the Records
+3.Search a record
+4.Delete a record
+5.Modify a Record
+Enter your choice :
+5
+
+Enter the ROLL NO of record you want to MODIFY : 2
+
+ Record found
+ Enter new data:
+ Enter NAME:vaiNEW
+
+ ENter Roll no:6
+
+ Enter Sub1 marks:77
+
+ Enter Sub2 marks33
+
+ YOUR NEW DATA IS:vaiNEW   6    77   33 
+ Record modified successfully
+MENU
+1.Insert records
+2.Display the Records
+3.Search a record
+4.Delete a record
+5.Modify a Record
+Enter your choice :
+2
+The records are
+
+	Name	RollNO	Sub1	Sub2	Avg
+	jeevan	1	33	44	38
+	vaiNEW	6	77	33	55
+	satish	5	88	44	66
+
+
+The Second class students are : 
+Name: vaiNEW
+RollNo: 6
+Average Marks: 55
+
+The Distinction students are : 
+Name: satish
+RollNo: 5
+Average Marks: 66
+MENU
+1.Insert records
+2.Display the Records
+3.Search a record
+4.Delete a record
+5.Modify a Record
+Enter your choice :
+0
+thankyou
+
+[Jeevan@Jeevan-DELL awknew]$ exit
+

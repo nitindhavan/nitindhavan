@@ -1,0 +1,25 @@
+
+jeevan@ubuntu:~$ gcc fork.c
+jeevan@ubuntu:~$ ./a.out
+
+child process
+child pid:2883
+Enter the no of elements:5
+
+enter the array elements8
+2
+4
+5
+3
+Ascending order is: 2 3 4 5 8
+parent pid=2882
+Enter the no of elements:5
+
+enter the array elements6
+2
+4
+8
+7
+
+Descending order is: 8 7 6 4 2
+jeevan@ubuntu:~$ exit

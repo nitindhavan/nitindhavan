@@ -1,0 +1,87 @@
+jeevan@ubuntu:~$ gcc mmalloc.C
+jeevan@ubuntu:~$ ./a.out
+
+1:Accept pages and holes
+2:First fit
+3:Best fit
+4:Worst fit
+5:Exit
+Enter your choice1
+Enter the no. of holes5
+
+Enter the size of the hole100
+
+Enter the size of the hole500
+
+Enter the size of the hole200
+
+Enter the size of the hole300
+
+Enter the size of the hole600
+
+Enter the no. of pages4
+
+Enter the name of the page1
+
+Enter the size of the page212
+
+Enter the name of the page2
+
+Enter the size of the page417
+
+Enter the name of the page3
+
+Enter the size of the page112
+
+Enter the name of the page4
+
+Enter the size of the page426
+
+1:Accept pages and holes
+2:First fit
+3:Best fit
+4:Worst fit
+5:Exit
+Enter your choice2
+
+We couldnot place the page 4 in any of the holes
+No.	Size	Page	Size consumed
+1	100	0	0
+2	500	1	212
+3	200	3	112
+4	300	0	0
+5	600	2	417
+1:Accept pages and holes
+2:First fit
+3:Best fit
+4:Worst fit
+5:Exit
+Enter your choice3
+No.	Size	Page	Size consumed
+1	100	0	0
+2	500	2	417
+3	200	3	112
+4	300	1	212
+5	600	4	426
+1:Accept pages and holes
+2:First fit
+3:Best fit
+4:Worst fit
+5:Exit
+Enter your choice4
+
+We couldnot place the page 4 in any of the holesNo.	Size	Page	Size consumed
+1	100	0	0
+2	500	2	417
+3	200	0	0
+4	300	3	112
+5	600	1	212
+1:Accept pages and holes
+2:First fit
+3:Best fit
+4:Worst fit
+5:Exit
+Enter your choice5
+
+jeevan@ubuntu:~$ exit
+

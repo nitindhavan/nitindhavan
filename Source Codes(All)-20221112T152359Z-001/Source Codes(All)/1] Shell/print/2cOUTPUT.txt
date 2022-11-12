@@ -1,0 +1,58 @@
+[Jeevan@Jeevan-DELL shell TXT]$ sh 2c.sh 2 3 44 sit
+menu
+1.greatest of 3 nos.
+2.reverse of a no.
+3.sum of individual digits of a no.
+4.print word n times
+5.exit
+enter your choice
+1
+greatest of 3 no.
+44 is greatest
+
+menu
+1.greatest of 3 nos.
+2.reverse of a no.
+3.sum of individual digits of a no.
+4.print word n times
+5.exit
+enter your choice
+2
+reverse no. is: 44
+
+menu
+1.greatest of 3 nos.
+2.reverse of a no.
+3.sum of individual digits of a no.
+4.print word n times
+5.exit
+enter your choice
+3
+sum of individual digits of no.
+sum of individual digits of no. 44 is 8
+
+menu
+1.greatest of 3 nos.
+2.reverse of a no.
+3.sum of individual digits of a no.
+4.print word n times
+5.exit
+enter your choice
+4
+print sit 3 times
+sit
+sit
+sit
+
+menu
+1.greatest of 3 nos.
+2.reverse of a no.
+3.sum of individual digits of a no.
+4.print word n times
+5.exit
+enter your choice
+5
+Thank you!!!
+
+[Jeevan@Jeevan-DELL shell TXT]$ exit
+

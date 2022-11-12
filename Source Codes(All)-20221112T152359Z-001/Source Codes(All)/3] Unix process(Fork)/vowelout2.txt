@@ -1,0 +1,9 @@
+jeevan@ubuntu:~$ gcc vowelpro.c
+jeevan@ubuntu:~$ ./a.out
+Enter The String:sit lonavala
+
+No of vowels:5
+
+
+ No of word:2Sun Sep 18 12:46:34 EDT 2011
+jeevan@ubuntu:~$ exit
